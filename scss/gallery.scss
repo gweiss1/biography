@@ -1,0 +1,45 @@
+@import "partials/variables";
+
+.gallery {
+	margin: auto;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+figure {
+	max-width: 310px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.photo {
+
+	display: inline-block;
+	padding: 5px;
+	text-align: center;
+	border-radius: 5px;
+	margin: auto;
+
+
+	img {
+		border-radius: 5px;
+		width: 300px;
+		height: 300px;
+
+		@media (max-width: 685px) {
+			max-width: 100%;
+			height: auto;
+		}
+
+		&:hover {
+			box-shadow: -5px 5px darken($secondary-color, 65%);
+		}
+	}
+	
+}
+
+figcaption {
+	font-style: italic;
+}
+
+

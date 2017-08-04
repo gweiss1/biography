@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Contact Me</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+</head>
+<body>
+
+	<div class="page">
+		<header>
+			<div class="banner">
+				<h1>Grace Weiss</h1>
+				<h2>ITA</h2>
+				<h3>Contact Me</h3>
+			</div>
+		</header>
+		
+		<div class="container">
+			<nav class="sections">
+				<ul class="clearfix">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="bio.html">Biography</a></li>
+					<li><a href="resume.html">Resume</a></li>
+					<li><a href="codepen.html">CodePen</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+				
+			</nav>
+
+
+			<div class="contact-form">
+
+				<form method="post" id="contact-form">
+					<fieldset>
+						<legend>Contact Me</legend>
+						<p>Want to get in touch? Fill out the form below to send me a message! You can also contact me by phone at 206-890-8567.</p>
+
+						<label for="name"><span>*</span> Name:</label>
+						<input type="text" name="user-name" id="name"><br>
+
+						<label for="email"><span>*</span> Email:</label>
+						<input type="email" name="user-email" id="email"><br>
+
+						<label for="phone"><span>*</span> Phone:</label>
+						<input type="tel" name="user-phone" id="phone"><br>
+
+						<label for="company">Company:</label>
+						<input type="text" name="user-company" id="company"><br>
+
+
+						<label for="comments" id="text-label">Questions/Comments:</label><br>
+						<textarea name="questions-comments" id="comments"></textarea><br>
+
+						<input type="submit" value="submit" id="submit-btn">
+						<p class="required"><span>*</span> required fields</p>
+
+					</fieldset>
+				</form>
+				
+			</div>
+		</div>
+	</div>
+	
+
+	<footer><a href="https://www.linkedin.com/in/grace-weiss-56a22449/" target="_blank" class="soc-media">LinkedIn</a></footer>
+	<script type="text/javascript" src="javascript/contact.js"></script>
+
+</body>
+</html>

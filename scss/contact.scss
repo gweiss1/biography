@@ -1,0 +1,85 @@
+@import "partials/variables";
+
+input {
+	margin-top: 5%;
+	margin-bottom: 5%;
+
+	&:focus {
+		border-color: $theme-color;
+	}
+}
+
+textarea {
+	height: 100px;
+	width: 200px;
+	margin-left: 100px;
+	margin-top: 5%;
+
+	&:focus {
+		border-color: $theme-color;
+	}
+}
+
+label {
+	display: inline-block;
+	width: 100px;
+}
+
+#text-label {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+legend {
+	text-align: center;
+	color: darken($theme-color, 10%);
+	font-weight: bold;
+	display: block;
+	padding: 5px;
+}
+
+fieldset {
+	width: 30%;
+	margin: auto;
+	margin-bottom: 5%;
+
+	p {
+		text-align: center;
+	}
+}
+
+
+span {
+	color: red;
+}
+
+#submit-btn {
+	display: block;
+	margin: 10% auto;
+	background-color: silver;
+
+	&:hover {
+		background-color: darken(silver, 10%);
+	}
+}
+
+.required {
+	font-size: .9em;
+	font-style: italic;
+}
+
+@media (max-width: 600px) {
+	input {
+		margin: 5% 0;
+	}
+
+	textarea {
+		margin-left: 5px;
+		width: 275px;
+	}
+
+	fieldset {
+		width: 90%;
+	}
+
+}

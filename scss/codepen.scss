@@ -1,0 +1,66 @@
+@import "partials/variables";
+
+
+.project {
+	margin: 3%;
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+	text-align: center;
+
+	 a {
+		color: $theme-color;
+		text-decoration: none;
+
+		&:hover {
+			color: $tertiary-color;
+		}
+	}
+}
+
+.css .project {
+	width: 45%;
+} 
+
+.category {
+	border: 1px solid black;
+	border-radius: 5%;
+	margin: 5%;
+	text-align: center;
+	margin: 5% auto;
+
+	h2 {
+		color: darken($theme-color, 10%);
+	}
+}
+
+.more {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+// media queries
+
+@media (max-width: 870px) {
+	.project {
+		display: inline-block;
+		width: 45%;
+		margin: 10px;
+	}
+}
+
+@media (max-width: 670px) {
+	.project {
+		display: block;
+		width: 90%;
+		border-top: 1px solid black;
+		margin: auto;
+	}
+}
+
+
+
+
+
+

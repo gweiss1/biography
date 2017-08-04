@@ -1,0 +1,39 @@
+@import "partials/variables";
+
+.container {
+	div {
+		// border: 1px solid black;
+		padding: 5%;
+	}
+}
+
+.bio {
+	float: left;
+	display: block;
+	width: 50%;
+	// border: 1px solid black;
+}
+
+.bio-pic {
+	float: right;
+	display: block;
+	width: 50%;
+	// border: 1px solid black;
+
+	img {
+		width: 100%;
+		border-radius: 5px;
+		box-shadow: -3px 3px $theme-color;
+	}
+}
+
+
+
+@media (max-width: 700px) {
+	.bio, .bio-pic {
+		float: none;
+		width: 90%;
+		text-align: center;
+		margin: auto;
+	}
+}

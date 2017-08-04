@@ -1,0 +1,18 @@
+th, td {
+  padding-right: 3%; }
+
+td {
+  text-align: left; }
+
+thead th {
+  font-size: 1.15em;
+  padding-bottom: 3%;
+  text-decoration: underline; }
+
+.job, .school {
+  text-align: left; }
+
+table {
+  margin: auto; }
+
+/*# sourceMappingURL=tables.css.map */

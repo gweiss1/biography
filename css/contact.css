@@ -1,0 +1,62 @@
+input {
+  margin-top: 5%;
+  margin-bottom: 5%; }
+  input:focus {
+    border-color: #3277BE; }
+
+textarea {
+  height: 100px;
+  width: 200px;
+  margin-left: 100px;
+  margin-top: 5%; }
+  textarea:focus {
+    border-color: #3277BE; }
+
+label {
+  display: inline-block;
+  width: 100px; }
+
+#text-label {
+  margin-top: 10px;
+  margin-bottom: 5px; }
+
+legend {
+  text-align: center;
+  color: #275e96;
+  font-weight: bold;
+  display: block;
+  padding: 5px; }
+
+fieldset {
+  width: 30%;
+  margin: auto;
+  margin-bottom: 5%; }
+  fieldset p {
+    text-align: center; }
+
+span {
+  color: red; }
+
+#submit-btn {
+  display: block;
+  margin: 10% auto;
+  background-color: silver; }
+  #submit-btn:hover {
+    background-color: #a7a7a7; }
+
+.required {
+  font-size: .9em;
+  font-style: italic; }
+
+@media (max-width: 600px) {
+  input {
+    margin: 5% 0; }
+
+  textarea {
+    margin-left: 5px;
+    width: 275px; }
+
+  fieldset {
+    width: 90%; } }
+
+/*# sourceMappingURL=contact.css.map */

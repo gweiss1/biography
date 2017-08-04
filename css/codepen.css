@@ -1,0 +1,42 @@
+.project {
+  margin: 3%;
+  display: inline-block;
+  width: 25%;
+  vertical-align: top;
+  text-align: center; }
+  .project a {
+    color: #3277BE;
+    text-decoration: none; }
+    .project a:hover {
+      color: #D71BFF; }
+
+.css .project {
+  width: 45%; }
+
+.category {
+  border: 1px solid black;
+  border-radius: 5%;
+  margin: 5%;
+  text-align: center;
+  margin: 5% auto; }
+  .category h2 {
+    color: #275e96; }
+
+.more {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25em; }
+
+@media (max-width: 870px) {
+  .project {
+    display: inline-block;
+    width: 45%;
+    margin: 10px; } }
+@media (max-width: 670px) {
+  .project {
+    display: block;
+    width: 90%;
+    border-top: 1px solid black;
+    margin: auto; } }
+
+/*# sourceMappingURL=codepen.css.map */
